@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App{
+  display: flex;
+  text-align: center;
+  background-image: radial-gradient( red, rgb(38, 0, 255), rgb(255, 255, 117));
+  min-height: 100vh;
+}
+
+.quote{
+  margin: auto;
+  width: 100%;
+  max-width: 500px;
+  min-height: 200px;
+  padding: 30px;
+  background-color: rgba(194, 250, 41, 0.925);
+  border-radius: 25px;
+  box-shadow: 6px 9px rgba(41, 40, 40, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+p{
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  word-wrap: break-word;
+}
+
+p:last-of-type{
+  margin:10px,0px ;
+}
+
+button{
+  border: none ;
+  outline: none;
+  margin-right: 12px ;
+  margin-left: 12px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn{
+  background-color: rgb(105, 238, 255);
+  padding: 7px;
+  width: 80px;
+  font-size: 15px;
+  color: black;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 700ms ease-in-out ;
+}
+
+.btn:hover{
+  background-color: royalblue;
+}
